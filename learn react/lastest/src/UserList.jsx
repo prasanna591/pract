@@ -11,7 +11,7 @@ function UserList() {
         setUsers(data);
         setLoading(false);
       });
-  }, []); // Runs only once after component mounts
+  }, []);
 
   return (
     <div>
