@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color:  #fffffd;
+}
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ max-width: 370px;   
+ width: 100%;
+ background-color: #a3f3de;
+ border-radius: 24px;
+ padding: 25px;
+ box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+ position: relative;
+}
+.profile-card::before{
+    content: '';
+    position: absolute;
+    height: 36%;
+    width: 100%;
+    background-color: #252158;
+    top: 0;
+    border-radius:  24px 24px 0 0;
+}
+.image{
+    position:relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #99b3f8;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.image .profile-img{
+    height: 100%;
+    width: 100%;
+   object-fit: cover;
+   border-radius: 50%;
+   border: 3px solid #fff;  
+
+}
+.profile-card .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+.text .name{
+    font-size: 22px;
+    font-weight: 500;
+}
+.text .job{
+    font-size: 15px;
+    font-weight: 400;
+}
+.profile-card .m-button{
+    display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.m-button .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f6faf9;
+    background-color: #6283df;
+    font-size: 18px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 0 8px;
+    text-decoration: none;
+}
+.profile-card .button{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+
+}
+.button .button{
+    margin: 0px 10px;
+    background-color: #3e5bac;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-radius: 24px;
+    padding: 8px 24px;
+    cursor: pointer;
+}
+.button .button:hover{
+    background-color: #252158;
+}

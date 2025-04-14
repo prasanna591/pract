@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0;
+    font-family: 'poppins','sans-serif';
+    box-sizing: border-box;
+}
+.hero{
+    background: #1d2020; 
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    color: #fff;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center; 
+    padding: 20px 8%;
+}
+nav.menu-img{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+nav .logo{
+    width: 160px;
+    cursor: pointer
+    ;
+}
+nav ul{
+    flex:1;
+    text-align:right;
+}
+nav ul li{
+    display:inline-block;
+    list-style-type: none;
+    margin: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+button{
+    background:#efefef;
+    height: 30px;
+    width:60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor:pointer;
+
+}
+button span{
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+}
+.lamp-container{
+    position: absolute;
+    top: 0;
+    left:22%;
+    width: 200px;
+}
+.lamp{
+    width: 100%;
+}
+.light{
+    position: absolute;
+    top: 98%;
+    left:50%;
+    transform: translateX(-50%);
+    width: 700px;
+    margin-left: -10px;
+}
